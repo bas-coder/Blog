@@ -1,0 +1,70 @@
+// COLORS
+$white: #fff;
+$white-smoke: #e4e4e4;
+$primary-color: #1d62e4;
+$secondary-color: #0b5897;
+$black: rgb(58, 63, 68);
+$grey: #858b91;
+$red: rgb(214, 19, 12);
+
+%center {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+%input {
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+
+%btn {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  outline: none;
+  margin: 5px;
+  user-select: none;
+  font-size: medium;
+  cursor: pointer;
+}
+
+//BUTTONS
+
+.btn-primary {
+  @extend %btn;
+  background-color: $black;
+  color: $white;
+
+  &:hover {
+    background-color: $grey;
+    transition: 0.5s;
+  }
+}
+
+.btn-secondary {
+  @extend %btn;
+  background-color: $primary-color;
+  color: white;
+
+  &:hover {
+    background-color: $white;
+    color: $black;
+    background-color: $white-smoke;
+    transition: 0.2s;
+  }
+}
+
+.btn-delete {
+  @extend %btn;
+  background-color: $red;
+  color: $white;
+  border: none;
+
+  &:hover {
+    background-color: lighten($red, 5%);
+    transition: 0.5s;
+  }
+}

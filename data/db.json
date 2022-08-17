@@ -1,0 +1,44 @@
+{
+  "blogs": [
+    {
+      "userId": 1,
+      "category": "Sports",
+      "id": 1,
+      "author": "Barack Obama",
+      "time": "12:00",
+      "title": "I am not a NERD ",
+      "url": "https://th.bing.com/th/id/OIP.rsjdZL_6Q2b0wcHZ55c1-gHaII?pid=ImgDet&rs=1",
+      "body": "qscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "userId": 1,
+      "time": "12:00",
+      "id": 3,
+      "category": "Celebrities",
+      "author": "Joe Bidden",
+      "title": "The 46th American president",
+      "url": "https://americascitizenpress.com/wp-content/uploads/2019/10/ACP-Joe-Biden-Wants-Your-Guns.jpg",
+      "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eniet architecto porro eius odio et labore et velit aut"
+    },
+    {
+      "category": "Fashion",
+      "userId": 1,
+      "time": "12:00",
+      "id": 4,
+      "author": "Arnold Schwarzennegar",
+      "title": "How to become a vegetarian",
+      "url": "https://th.bing.com/th/id/OIP.JNk1BFs5PCntIYPmukEpKwAAAA?pid=ImgDet&rs=1",
+      "body": "I used to eat meat, that is how I became so strong but we can also eat grass(like sheep). It is very healthy and It works. Ci\nsit amet rerum  voluptatem rerum illo velit"
+    },
+    {
+      "userId": 1,
+      "author": "Donald Trump",
+      "category": "Business",
+      "id": 5,
+      "time": "12:00",
+      "title": "JB is a bitch",
+      "url": "https://savedelete.com/wp-content/uploads/2020/05/Donald-Trump-13.jpg",
+      "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis"
+    }
+  ]
+}

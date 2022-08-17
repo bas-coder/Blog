@@ -1,0 +1,65 @@
+.create {
+  @extend %center;
+  border: 1px solid $white-smoke;
+  padding: 0 10px;
+  // height: 100vh;
+
+  &_title {
+    margin: 10px;
+  }
+
+  &_inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 550px;
+    margin: 0 auto;
+  }
+
+  label {
+    font-size: 15px;
+    padding: 2px;
+    // font-family: 'roboto';
+  }
+
+  .input {
+    @extend %input;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: $white-smoke;
+
+  }
+
+  textarea {
+    @extend %input;
+    height: 5rem;
+    margin-bottom: 15px;
+    background-color: $white-smoke;
+  }
+
+  select {
+    width: 30%;
+    margin: 0 0 10px 0;
+    border-radius: 8px;
+    padding: 5px 7px;
+  }
+
+  &_btn-add {
+    margin: 5px 5px 20px 5px;
+    width: 8rem;
+    text-align: center;
+    border: none;
+  }
+
+  &_inputs-url {
+    @extend %input;
+    border-radius: 5px;
+    border: 1px solid $black;
+    background-color: $white;
+    color: rgb(19, 88, 179);
+    text-decoration: underline;
+    font-size: 13px;
+    margin: 0 0 10px 0;
+  }
+}
+
